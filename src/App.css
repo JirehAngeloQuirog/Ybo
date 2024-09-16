@@ -31,6 +31,19 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  transition: all 0.3 ease;
+  z-index: 1000;
+}
+
+.app-header.scrolled {
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.app-header.scrolled .logo img{
+  width: 90px;
+  height: 60px;
 }
 
 .logo {
@@ -40,9 +53,10 @@ body {
 }
 
 .logo img {
-  width: 120px;
+  width: 150px;
   height: 100px;
   margin-right: 10px;
+  transition: all 0.3 ease;
 }
 
 .main-content {
@@ -121,7 +135,7 @@ body {
 }
 
 .create-section img {
-  width: 250px;
+  width: 350px;
   height: 130px;
   margin-top: 20px;
 }
